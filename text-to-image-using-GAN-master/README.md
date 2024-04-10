@@ -2,7 +2,7 @@
 
 ## Intoduction
 
-This project is mainly inspired from [Generative Adversarial Text-to-Image Synthesis paper](https://arxiv.org/abs/1605.05396). We implemented this model using PyTorch. In this model we train a conditional generative adversarial network, conditioned on text captions, to generate images that correspond to the captions. The network architecture is shown below. This architecture is based on DCGAN. 
+This model is implemented using PyTorch. In this model we train a conditional generative adversarial network, conditioned on text captions, to generate images that correspond to the captions. The network architecture is shown below. This architecture is based on DCGAN. 
 
 <figure><img src='images/dcgan_network.png'></figure>
 Credits: [1]
@@ -30,10 +30,6 @@ $ pip install -r requirements.txt<br/>
 
 ## Training
 
-**To use this code for training you can:** <br/>
-$ git clone https://github.com/Rakshith-Manandi/text-to-image-using-GAN.git <br/>
-$ cd ./text-to-image-using-GAN <br/>
-$ python -u runtime.py <br/>
 
 **Inputs to the model for training/prediction:**
 - `dataset`: Dataset to use `(birds | flowers)`
@@ -43,13 +39,6 @@ $ python -u runtime.py <br/>
 - `pre_trained_gen` Generator pre-tranined model path used for intializing training or continuing from a checkpoint.
 - `cls`: Boolean flag to indicate whether to train with cls algorithms or not.
 
-## Demo
-
-**To get a glimpse of the results generated, you can:** <br/>
-First make sure you have installed all the dependencies, as mentioned in Requirements section. Also, make sure you have GPU access. </br>
-$ git clone https://github.com/Rakshith-Manandi/text-to-image-using-GAN.git <br/>
-$ cd ./text-to-image-using-GAN <br/>
-$ jupyter notebook GAN_demo.ipynb  (i.e. open the 'GAN_demo.ipynb' file)<br/>
 
 ## Results
 
