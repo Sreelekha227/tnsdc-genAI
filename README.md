@@ -4,7 +4,8 @@
 
 This project is mainly inspired from [Generative Adversarial Text-to-Image Synthesis paper](https://arxiv.org/abs/1605.05396). We implemented this model using PyTorch. In this model we train a conditional generative adversarial network, conditioned on text captions, to generate images that correspond to the captions. The network architecture is shown below. This architecture is based on DCGAN. 
 
-<figure><img src='tnsdc-genAI\text-to-image-using-GAN-master\images\dcgan_network.png'></figure>
+![dcgan_network](https://github.com/Sreelekha227/tnsdc-genAI/assets/140043965/01f791b9-a6dc-4ba6-a80b-4e785f2c8d35)
+
 Credits: [1]
 
 
