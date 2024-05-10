@@ -1,9 +1,9 @@
 ### Terrain Detection App README
 
-This README provides an overview of the Terrain Detection App implemented in Python using Tkinter, Folium, OpenCV, and YOLOv5 for satellite image prediction.
+This README provides an overview of the Terrain Detection App implemented in Python using Tkinter, Folium, OpenCV, and YOLOv8 for satellite image prediction.
 
 #### Overview
-The Terrain Detection App allows users to input latitude and longitude coordinates and then detects terrain types at those coordinates using satellite imagery. It utilizes Folium to generate a satellite map, YOLOv5 for object detection, and OpenCV for image processing and display.
+The Terrain Detection App allows users to input latitude and longitude coordinates and then detects terrain types at those coordinates using satellite imagery. It utilizes Folium to generate a satellite map, YOLOv8 for object detection, and OpenCV for image processing and display.
 
 #### Requirements
 - Python 3.x
@@ -11,7 +11,7 @@ The Terrain Detection App allows users to input latitude and longitude coordinat
 - Folium
 - PIL (Python Imaging Library)
 - OpenCV
-- ultralytics (YOLOv)
+- ultralytics (YOLOv8)
 
 You can install the required libraries using pip:
 - pip install folium opencv-python-headless pillow tkinter ultralytics
@@ -35,7 +35,7 @@ You can install the required libraries using pip:
 
 #### Important Notes
 - Ensure internet connectivity for accessing satellite imagery.
-- The accuracy of the terrain detection may vary based on the quality of the satellite imagery and the performance of the YOLOv5 model.
+- The accuracy of the terrain detection may vary based on the quality of the satellite imagery and the performance of the YOLOv8 model.
 - You may need to adjust the zoom level in the `generate_satellite_image` method for better visualization.
 - Custom YOLOv8 weights can be used by replacing `weights.pt` with the desired weights file path.
 
