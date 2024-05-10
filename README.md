@@ -11,7 +11,7 @@ The Terrain Detection App allows users to input latitude and longitude coordinat
 - Folium
 - PIL (Python Imaging Library)
 - OpenCV
-- ultralytics (YOLOv5)
+- ultralytics (YOLOv)
 
 You can install the required libraries using pip:
 - pip install folium opencv-python-headless pillow tkinter ultralytics
@@ -37,7 +37,7 @@ You can install the required libraries using pip:
 - Ensure internet connectivity for accessing satellite imagery.
 - The accuracy of the terrain detection may vary based on the quality of the satellite imagery and the performance of the YOLOv5 model.
 - You may need to adjust the zoom level in the `generate_satellite_image` method for better visualization.
-- Custom YOLOv5 weights can be used by replacing `weights.pt` with the desired weights file path.
+- Custom YOLOv8 weights can be used by replacing `weights.pt` with the desired weights file path.
 
 #### Credits
 - This app was created by integrating various libraries and tools available in the Python ecosystem.
